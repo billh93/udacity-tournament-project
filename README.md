@@ -47,6 +47,7 @@ In order to run this program in your localhost you will need the following:
 
 ## Expected Outcome
 
+```clu
 vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
 1. Old matches can be deleted.
 2. Player records can be deleted.
@@ -57,6 +58,7 @@ vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
 7. After a match, players have updated standings.
 8. After one match, players with one win are paired.
 Success!  All tests pass!
+```
 
 
 ## Contact Information
