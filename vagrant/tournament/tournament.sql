@@ -7,10 +7,11 @@
 -- these lines here.
 
 DROP DATABASE IF EXISTS tournament;
-DROP VIEW IF EXISTS standings;
-DROP TABLE IF EXISTS players, matches;
 
 CREATE DATABASE tournament;
+
+-- Connect to the recently created database
+\c tournament
 
 CREATE TABLE players (
   id SERIAL PRIMARY KEY,

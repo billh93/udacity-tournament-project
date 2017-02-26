@@ -39,7 +39,7 @@ In order to run this program in your localhost you will need the following:
 5. Change to the correct folder
   1. Type `cd /vagrant/tournament`
 6. Open PSQL and run the tournament.sql
-  1. type `psql`
+  1. type `psql -f tournament.sql`
   2. copy the contents of tournament.sql and paste in to the terminal window
   3. type `\q` to quit out of PSQL
 7. Run the tests
